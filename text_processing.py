@@ -60,7 +60,6 @@ def no_vowels(input_string):
             >>> tp.normalize(input_string2)
             ''W lv Pythn!'
     """
-    input_string = input_string.lower()
     vowels = 'aeiou'
     upperVowels = vowels.upper()
     for vowel in vowels:
